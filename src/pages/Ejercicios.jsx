@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import EjercicioCard from "../components/EjercicioCard";
-import { obtenerEjercicios } from "../services/ejerciciosService";
+import { obtenerEjercicios } from "../services/ejerciciosService.js";
 
 function Ejercicios() {
   const [ejercicios, setEjercicios] = useState([]);
